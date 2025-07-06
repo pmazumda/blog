@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "nodejs",
+    "yarn",
+    "postgresql",
+    "git",
+    "trivy@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "yarn install",
+      "echo 'DevBox ready. Use yarn dev to start Backstage.'"
+    ]
+  }
+}

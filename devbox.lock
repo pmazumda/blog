@@ -1,0 +1,148 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "git": {
+      "resolved": "github:NixOS/nixpkgs/d31a91c9b3bee464d054633d5f8b84e17a637862?narHash=sha256-p%2BUruOjULI5lV16FkBqkzqgFasLqfx0bihLBeFHiZAs%3D#git",
+      "source": "nixpkg",
+      "systems": {
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "path": "/nix/store/rzqvhv48m3nh8g3j4k6jmz6yqy8apr95-git-2.49.0",
+              "default": true
+            }
+          ]
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-07-06T07:15:37Z",
+      "resolved": "github:NixOS/nixpkgs/ceb24d94c6feaa4e8737a8e2bd3cf71c3a7eaaa0?lastModified=1751786137&narHash=sha256-lIlUKVGCGsh0Q2EA7%2F6xRtKUZjaQ%2Fur8uUyY%2BMynHXQ%3D"
+    },
+    "glibcLocales@latest": {
+      "last_modified": "2025-06-20T02:24:11Z",
+      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#glibcLocales",
+      "source": "devbox-search",
+      "version": "2.40-66",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9jdphs69y73bnrqpnxp1kbzcf05llx5x-glibc-locales-2.40-66",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9jdphs69y73bnrqpnxp1kbzcf05llx5x-glibc-locales-2.40-66"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pci0zgsd1lb0hp6rsicn8isq4ysiclqh-glibc-locales-2.40-66",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pci0zgsd1lb0hp6rsicn8isq4ysiclqh-glibc-locales-2.40-66"
+        }
+      }
+    },
+    "nodejs": {
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/d31a91c9b3bee464d054633d5f8b84e17a637862?narHash=sha256-p%2BUruOjULI5lV16FkBqkzqgFasLqfx0bihLBeFHiZAs%3D#nodejs",
+      "source": "nixpkg",
+      "systems": {
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "path": "/nix/store/pjr8jcds298brhwy1d3rmym9vayxhbfs-nodejs-22.16.0",
+              "default": true
+            }
+          ]
+        }
+      }
+    },
+    "postgresql": {
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/d31a91c9b3bee464d054633d5f8b84e17a637862?narHash=sha256-p%2BUruOjULI5lV16FkBqkzqgFasLqfx0bihLBeFHiZAs%3D#postgresql",
+      "source": "nixpkg",
+      "systems": {
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "man",
+              "path": "/nix/store/aizabfnrpj69sjwqrazyfz227l826aa1-postgresql-17.5-man",
+              "default": true
+            },
+            {
+              "path": "/nix/store/d9qxx8j8nvvlglpb42hzz72qbgfv63nq-postgresql-17.5",
+              "default": true
+            }
+          ]
+        }
+      }
+    },
+    "trivy@latest": {
+      "last_modified": "2025-06-20T02:24:11Z",
+      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#trivy",
+      "source": "devbox-search",
+      "version": "0.63.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zv24vnhdqbpgcjd5phjl6vbvbcv7wpg0-trivy-0.63.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zv24vnhdqbpgcjd5phjl6vbvbcv7wpg0-trivy-0.63.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0xpv7p2hmz95rhvwhi3z626x66amvi98-trivy-0.63.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0xpv7p2hmz95rhvwhi3z626x66amvi98-trivy-0.63.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m5bc2s095yij43iw6dgfpr0ki1cvgmjj-trivy-0.63.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m5bc2s095yij43iw6dgfpr0ki1cvgmjj-trivy-0.63.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wp1c1d5iimn3rrgbd8mqafq9ham49mkg-trivy-0.63.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wp1c1d5iimn3rrgbd8mqafq9ham49mkg-trivy-0.63.0"
+        }
+      }
+    },
+    "yarn": {
+      "resolved": "github:NixOS/nixpkgs/d31a91c9b3bee464d054633d5f8b84e17a637862?narHash=sha256-p%2BUruOjULI5lV16FkBqkzqgFasLqfx0bihLBeFHiZAs%3D#yarn",
+      "source": "nixpkg",
+      "systems": {
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "path": "/nix/store/fp98fzb6mw6159pbgnwrhpag4w3mc8zq-yarn-1.22.22",
+              "default": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

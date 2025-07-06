@@ -1,0 +1,5 @@
+baseURL = 'https://blog.nirmaan.dev/'
+languageCode = 'en-us'
+theme = "hugo-coder"
+title = 'M Blogy '
+defaultcontentlanguage = "en"
