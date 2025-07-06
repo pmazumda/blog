@@ -1,0 +1,37 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: hugo-blog-post
+  title: Create a New Hugo Blog Post
+  description: Generates a new post in the Hugo blog repo and creates a PR.
+spec:
+  owner: blog-team
+  type: blog
+  parameters:
+    - title: title
+      description: Blog Post Title
+    - title: slug
+      description: URL Slug (e.g., hello-world)
+    - title: content
+      description: Blog content
+      type: textarea
+  steps:
+    - id: fetch-template
+      name: Generate blog post
+      action: fetch:template
+      input:
+        url: ./skeleton
+        targetPath: ./blog-post
+        values:
+          title: ${{ parameters.title }}
+          slug: ${{ parameters.slug }}
+          content: ${{ parameters.content }}
+    - id: publish-to-repo
+      name: Publish to GitHub
+      action: publish:github
+      input:
+        repoUrl: github.com?repo=blog&owner=pmazumda
+        branch: main
+        title: "New blog post: ${{ parameters.title }}"
+        description: "Added via Backstage scaffolder"
+
