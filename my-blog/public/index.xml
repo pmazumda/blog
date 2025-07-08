@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mr. Blogyy</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Mr. Blogyy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Jul 2025 16:07:24 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 07 Jul 2025 16:07:24 +0530</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>🚧 404 &amp; Coming Soon</title>
+      <link>http://localhost:1313/posts/404/</link>
+      <pubDate>Thu, 03 Jul 2025 15:04:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/404/</guid>
+      <description>😅 Oops! 404 Not Found You’ve stumbled upon a digital tumbleweed.&#xA;The page you’re looking for doesn’t exist — yet.&#xA;But don’t click away! Something exciting is brewing behind the scenes&amp;hellip;&#xA;🔮 Coming Soon&amp;hellip; We&amp;rsquo;re crafting something thoughtful, useful, and hopefully mind-blowingly good.&#xA;🎯 What to expect:&#xA;Practical tech insights Humble coding adventures Nerdy rants with coffee-stained punchlines Maybe the occasional dad joke&amp;hellip; or two 😅 📬 Stay Tuned In the meantime, grab your favorite beverage, bookmark this page, and check back soon.</description>
+    </item>
+  </channel>
+</rss>

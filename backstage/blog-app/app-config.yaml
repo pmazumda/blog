@@ -23,7 +23,7 @@ backend:
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
   cors:
     origin: http://localhost:3000
-    methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
+    methods: [GET, HEAD, PATCH, POST, PUT, DELETE, OPTIONS]
     credentials: true
   # This is for local development only, it is not recommended to use this in production
   # The production database configuration is stored in app-config.production.yaml
@@ -50,6 +50,7 @@ proxy:
   #   '/test':
   #     target: 'https://example.com'
   #     changeOrigin: true
+  
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
@@ -63,6 +64,7 @@ techdocs:
     type: 'local' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.
 
 auth:
+  environment: development
   # see https://backstage.io/docs/auth/ to learn about auth providers
   providers:
     # See https://backstage.io/docs/auth/guest/provider
@@ -93,7 +95,9 @@ catalog:
       target: ../../examples/org.yaml
       rules:
         - allow: [User, Group]
-
+    
+    - type: file
+      target: ./templates/hugo-blog-post/template.yaml      
     ## Uncomment these lines to add more example data
     # - type: url
     #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all.yaml
@@ -107,12 +111,10 @@ catalog:
   # New adopters are encouraged to enable it as this behavior will be the default in a future release.
   useUrlReadersSearch: true
     # hugo-blog template registration
-    - type: file
-      target: ./templates/hugo-blog-post/template.yaml
 kubernetes:
   # see https://backstage.io/docs/features/kubernetes/configuration for kubernetes configuration options
 
 # see https://backstage.io/docs/permissions/getting-started for more on the permission framework
 permission:
   # setting this to `false` will disable permissions
-  enabled: true
+  enabled: false 

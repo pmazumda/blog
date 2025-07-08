@@ -43,7 +43,9 @@
     "app": "link:../app",
     "better-sqlite3": "^9.0.0",
     "node-gyp": "^10.0.0",
-    "pg": "^8.11.3"
+    "pg": "^8.11.3",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
     "@backstage/cli": "^0.33.0"
