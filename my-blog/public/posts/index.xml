@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Mr. Blogyy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Jul 2025 16:07:24 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 21:47:18 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Write Fast</title>
+      <link>http://localhost:1313/posts/how-to-write-fast/</link>
+      <pubDate>Tue, 08 Jul 2025 21:47:18 +0530</pubDate>
+      <guid>http://localhost:1313/posts/how-to-write-fast/</guid>
+      <description>Introduction Link to heading Write a hook that makes your reader care.&#xA;Key Takeaways Link to heading Point 1 Point 2 Main Content Link to heading Start expanding on your points. You can use:&#xA;Bold, code, or italics Hugo shortcodes Images: ![alt text](/images/example.jpg) Conclusion Link to heading Wrap it up with a summary or call to action.</description>
+    </item>
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
@@ -20,7 +27,7 @@
       <link>http://localhost:1313/posts/404/</link>
       <pubDate>Thu, 03 Jul 2025 15:04:00 +0530</pubDate>
       <guid>http://localhost:1313/posts/404/</guid>
-      <description>😅 Oops! 404 Not Found You’ve stumbled upon a digital tumbleweed.&#xA;The page you’re looking for doesn’t exist — yet.&#xA;But don’t click away! Something exciting is brewing behind the scenes&amp;hellip;&#xA;🔮 Coming Soon&amp;hellip; We&amp;rsquo;re crafting something thoughtful, useful, and hopefully mind-blowingly good.&#xA;🎯 What to expect:&#xA;Practical tech insights Humble coding adventures Nerdy rants with coffee-stained punchlines Maybe the occasional dad joke&amp;hellip; or two 😅 📬 Stay Tuned In the meantime, grab your favorite beverage, bookmark this page, and check back soon.</description>
+      <description>😅 Oops! 404 Not Found Link to heading You’ve stumbled upon a digital tumbleweed.&#xA;The page you’re looking for doesn’t exist — yet.&#xA;But don’t click away! Something exciting is brewing behind the scenes&amp;hellip;&#xA;🔮 Coming Soon&amp;hellip; Link to heading We&amp;rsquo;re crafting something thoughtful, useful, and hopefully mind-blowingly good.&#xA;🎯 What to expect:&#xA;Practical tech insights Humble coding adventures Nerdy rants with coffee-stained punchlines Maybe the occasional dad joke&amp;hellip; or two 😅 📬 Stay Tuned Link to heading In the meantime, grab your favorite beverage, bookmark this page, and check back soon.</description>
     </item>
   </channel>
 </rss>
