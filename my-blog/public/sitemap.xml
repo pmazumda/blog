@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>http://localhost:1313/en/sitemap.xml</loc>
-    
-      <lastmod>2025-07-08T21:47:18+05:30</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>http://localhost:1313/pt-br/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://blog.nirmaan.dev/</loc><lastmod>2025-07-03T15:04:00+05:30</lastmod></url><url><loc>https://blog.nirmaan.dev/posts/</loc><lastmod>2025-07-03T15:04:00+05:30</lastmod></url><url><loc>https://blog.nirmaan.dev/posts/404/</loc><lastmod>2025-07-03T15:04:00+05:30</lastmod></url><url><loc>https://blog.nirmaan.dev/categories/</loc></url><url><loc>https://blog.nirmaan.dev/tags/</loc></url></urlset>
